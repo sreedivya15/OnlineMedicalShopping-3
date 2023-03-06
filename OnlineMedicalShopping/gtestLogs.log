@@ -1,0 +1,27 @@
+2023-03-06 10:41:37,093 [INFO] com.medical.OnlineMedicalShoppingApplication [restartedMain] Starting OnlineMedicalShoppingApplication using Java 17.0.6 with PID 24712 (C:\Users\MEDDIVYA\OneDrive - Capgemini\Desktop\workspace2\OnlineMedicalShopping\target\classes started by meddivya in C:\Users\MEDDIVYA\OneDrive - Capgemini\Desktop\workspace2\OnlineMedicalShopping)
+2023-03-06 10:41:37,118 [INFO] com.medical.OnlineMedicalShoppingApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-06 10:41:37,234 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-06 10:41:37,235 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-06 10:41:38,503 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-06 10:41:38,645 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces.
+2023-03-06 10:41:40,852 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8020 (http)
+2023-03-06 10:41:40,879 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-03-06 10:41:40,880 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-06 10:41:41,066 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-06 10:41:41,068 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3831 ms
+2023-03-06 10:41:41,502 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-06 10:41:41,637 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-06 10:41:42,209 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-03-06 10:41:42,633 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2742d55f
+2023-03-06 10:41:42,639 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-03-06 10:41:42,708 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-06 10:41:44,424 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-06 10:41:44,453 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-06 10:41:45,127 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-06 10:41:45,839 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-03-06 10:41:45,946 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8020 (http) with context path ''
+2023-03-06 10:41:45,977 [INFO] com.medical.OnlineMedicalShoppingApplication [restartedMain] Started OnlineMedicalShoppingApplication in 9.583 seconds (process running for 10.687)
+2023-03-06 10:41:53,447 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8020-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-06 10:41:53,448 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8020-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-03-06 10:41:53,450 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8020-exec-3] Completed initialization in 2 ms
+2023-03-06 14:19:19,070 [WARN] com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m33s548ms447µs800ns).
